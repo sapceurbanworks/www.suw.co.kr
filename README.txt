@@ -1,15 +1,22 @@
-SPACE URBAN WORKS Website v5
+SPACE URBAN WORKS Website v6
 
-[반영사항]
-- 첫 화면 우측 프로젝트 사진 전체 제거
-- HERO를 순수 브랜드 타이포 중심으로 변경
-- PROJECTS를 SPACE / URBAN 두 축으로 분리
-- SNDID 브로슈어 기반 SPACE 수행실적 대폭 수록
-- 유알공간도시연구소 기반 URBAN 연구·컨설팅 실적 연도별 수록
-- PEOPLE에서 개인 이름 전부 제거
-- 조직 순서: 대표 → 경영지원실 → 공간기획실 → 도시연구실
-- 각 조직의 역할과 업무내용을 홈페이지용 문장으로 정리
+[이번 버전]
+1. HERO
+- SPACE / URBAN / WORKS 대형 타이틀을 화면 중앙부로 조정
+- 단어 사이 상하 간격 확대
 
-[업로드]
-index.html, styles.css, script.js, assets 폴더를 GitHub 저장소에 덮어쓰기.
+2. PROJECTS
+- SPACE / URBAN 프로젝트의 + 버튼을 크게 강조
+- hover 및 open 상태 개선
+- 펼친 실적 목록 글자 15px 수준으로 확대
+- 줄간격 및 항목 간격 확대
+
+3. URBAN RESEARCH
+- 기존 단순 RESEARCH ARCHIVE 안내를 실제 아카이브로 전환
+- 연구용역 / 논문·기고·학술발표 / 학술활동 / 수상 / 전문위원 활동 / EVENT·대외활동·언론보도 수록
+- 기존 유알공간도시연구소 홈페이지의 About, UR News, Event 내용을 기반으로 이전
+- 기존 Event 페이지에 있던 참여 연구 관련 언론보도/대외활동 링크 일부 연결
+
+[GitHub 반영]
+index.html / styles.css / script.js / assets 폴더를 기존 저장소 최상위에 업로드하여 덮어쓰기.
 CNAME 파일은 유지.

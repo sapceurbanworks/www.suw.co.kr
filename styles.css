@@ -14,3 +14,22 @@ footer{height:80px;background:#111;color:#777;border-top:1px solid #333;display:
 .reveal{opacity:0;transform:translateY(20px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}
 @media(max-width:900px){.site-header{height:68px}.brand img{height:28px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:68px;left:0;right:0;background:#f3f3f0;padding:25px 5vw;flex-direction:column;font-size:13px;border-bottom:1px solid #ccc}.nav.open{display:flex}.hero{min-height:650px;padding-bottom:10vw}.split,.business-columns{grid-template-columns:1fr}.body-copy{padding-top:20px}.origin-grid{grid-template-columns:1fr}.plus{height:70px}.business-column:first-child{border-right:0}.business-column,.business-column+ .business-column{padding:0}.project-grid{grid-template-columns:1fr 1fr}.project-card.large{grid-column:span 2}.research-project{grid-template-columns:1fr}.research-project p{text-align:left}.research-fields{grid-template-columns:1fr 1fr}.business-head,.projects-head,.people-head,.news-head{align-items:start;flex-direction:column;gap:20px}.news-list article{grid-template-columns:90px 1fr}.news-list p{grid-column:2;text-align:left}.contact-grid{grid-template-columns:1fr}.section{padding-top:100px;padding-bottom:100px}}
 @media(max-width:600px){.hero{padding:0 6vw 16vw}.hero h1{font-size:54px}.section{padding:80px 6vw}.section-label{margin-bottom:45px}.section h2{font-size:42px}.origin-card{padding:30px;min-height:230px}.origin-card h3{font-size:30px;margin-top:40px}.project-grid{grid-template-columns:1fr}.project-card.large{grid-column:auto}.project-card.large img,.project-card img{aspect-ratio:1.2/1}.research-fields{grid-template-columns:1fr}.research-fields>div{border-right:0;border-bottom:1px solid #333}.org-row{gap:12px}.person h3{font-size:20px}.news-list article{grid-template-columns:1fr;gap:8px}.news-list p{grid-column:auto}.contact{padding:95px 6vw}.contact h2{font-size:55px}footer{padding:0 6vw}}
+
+
+.contact-project{
+  margin-top:28px;
+  padding-top:24px;
+  border-top:1px solid rgba(255,255,255,.18);
+}
+.contact-project span{
+  display:block;
+  margin-bottom:8px;
+  font-size:11px;
+  letter-spacing:.16em;
+  opacity:.62;
+}
+.contact-project p{
+  margin:0;
+  font-size:14px;
+  line-height:1.7;
+}

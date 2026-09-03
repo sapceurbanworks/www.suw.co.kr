@@ -1,16 +1,15 @@
-SPACE URBAN WORKS — 무료 정적 홈페이지 초안
+SPACE URBAN WORKS Website v2
 
-파일
-- index.html : 메인 홈페이지
-- styles.css : 디자인/반응형 스타일
-- script.js : 모바일 메뉴/간단한 애니메이션
-- assets/ : 로고 및 SNDID 브로슈어 기반 프로젝트 이미지
+[업데이트 내용]
+- 공식 회사 주소 반영
+- 대표전화 031-508-8411 반영
+- 팩스 031-580-8422 반영
+- UR SPACE 연구 아카이브 문구 정리
+- 조직도 직무 표기 정리
+- CONTACT / Footer 정보 보강
 
-무료 공개 추천
-1) GitHub 계정 생성/로그인
-2) 새 Repository 생성 (예: suw-website)
-3) 이 폴더의 파일 전체 업로드
-4) Settings > Pages > Deploy from a branch > main / root 선택
-5) 사이트 확인 후 보유 도메인 www.suw.co.kr 연결
-
-도메인 DNS는 실제 도메인 등록업체 설정 화면을 확인하면서 진행하세요.
+[GitHub 업데이트 방법]
+1. 이 ZIP을 압축 해제합니다.
+2. suw-site 폴더 안의 파일 전체를 GitHub 저장소 최상위에 업로드합니다.
+3. 기존 파일과 같은 이름은 Replace/Overwrite 합니다.
+4. Commit changes를 누르면 GitHub Pages가 자동 재배포됩니다.

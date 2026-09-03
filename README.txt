@@ -1,15 +1,19 @@
-SPACE URBAN WORKS Website v2
+SPACE URBAN WORKS Website v3
 
-[업데이트 내용]
-- 공식 회사 주소 반영
-- 대표전화 031-508-8411 반영
-- 팩스 031-580-8422 반영
-- UR SPACE 연구 아카이브 문구 정리
-- 조직도 직무 표기 정리
-- CONTACT / Footer 정보 보강
+[이번 버전 핵심]
+- 메인 HERO를 브랜드 중심의 에디토리얼 디자인으로 전면 재구성
+- 공식 슬로건 MAKE BETTER URBAN LIFE 반영
+- 메인 카피를 '공간을 기획하고, 도시를 연구하며, 개발의 가능성을 현실로 만듭니다.'로 정리
+- SNDID + 유알공간도시연구소 통합 스토리 강화
+- SPACE WORKS / URBAN WORKS 사업 구조 정돈
+- Legacy Project 표기 방식 정리
+- URBAN RESEARCH LAB의 브랜드 위계 강화
+- 조직 및 CONTACT 디자인 개선
+- 모바일 반응형 레이아웃 재정비
 
-[GitHub 업데이트 방법]
-1. 이 ZIP을 압축 해제합니다.
-2. suw-site 폴더 안의 파일 전체를 GitHub 저장소 최상위에 업로드합니다.
-3. 기존 파일과 같은 이름은 Replace/Overwrite 합니다.
-4. Commit changes를 누르면 GitHub Pages가 자동 재배포됩니다.
+[GitHub 교체 방법]
+1. ZIP 압축 해제
+2. suw-site 폴더 안의 index.html, styles.css, script.js, assets 폴더를 저장소 최상위에 업로드
+3. 기존 CNAME 파일은 삭제하지 않음
+4. Commit changes
+5. 1~3분 후 www.suw.co.kr 새로고침

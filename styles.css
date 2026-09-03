@@ -1119,3 +1119,94 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
   .ceo-intro-copy h1{font-size:64px}
   .ceo-current strong{font-size:15px}
 }
+
+
+/* ===== v9 SPACE PROJECTS single-photo thumbs ===== */
+.track-thumbs{
+  flex-wrap:wrap;
+}
+.track-thumbs figure{
+  width:220px !important;
+  height:145px !important;
+  border:1px solid rgba(17,17,15,.08);
+}
+.track-thumbs img{
+  object-fit:cover !important;
+  object-position:center center !important;
+}
+@media(max-width:650px){
+  .track-thumbs figure{
+    min-width:180px !important;
+    width:180px !important;
+    height:118px !important;
+  }
+}
+
+
+/* ===== v10 CEO PHOTO RIGHT ===== */
+.ceo-intro-grid{
+  align-items:center !important;
+}
+.ceo-intro-copy{
+  order:1;
+}
+.ceo-photo{
+  order:2;
+  justify-self:end;
+  width:min(100%, 420px);
+  min-height:560px !important;
+  border:1px solid rgba(17,17,15,.08);
+}
+.ceo-photo img{
+  width:100%;
+  height:100%;
+  min-height:560px !important;
+  object-fit:cover;
+  object-position:center 24%;
+  filter:grayscale(100%);
+}
+@media(max-width:850px){
+  .ceo-photo{
+    order:1;
+    justify-self:stretch;
+    width:100%;
+    min-height:420px !important;
+  }
+  .ceo-photo img{
+    min-height:420px !important;
+    object-position:center 20%;
+  }
+  .ceo-intro-copy{
+    order:2;
+  }
+}
+@media(max-width:560px){
+  .ceo-photo{
+    min-height:340px !important;
+  }
+  .ceo-photo img{
+    min-height:340px !important;
+  }
+}
+
+
+/* ===== v11 ORIGINAL COLOR IMAGES ===== */
+/* Show all project/profile imagery in original color. */
+.hero-main-image img,
+.hero-subgrid img,
+.project-feature img,
+.project-card img,
+.track-photo-row img,
+.track-thumbs img,
+.ceo-photo img{
+  filter:none !important;
+}
+
+/* Keep hover subtle without forcing color transitions. */
+.hero-right figure:hover img,
+.project-feature:hover img,
+.project-card:hover img,
+.track-photo-row figure:hover img,
+.track-thumbs figure:hover img{
+  filter:none !important;
+}

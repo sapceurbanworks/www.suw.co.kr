@@ -1315,3 +1315,38 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
     min-height:330px !important;
   }
 }
+
+
+/* ===== v14 final refinements ===== */
+.ceo-intro-copy h1{
+  font-size:clamp(48px,5.8vw,90px) !important;
+  margin:18px 0 30px !important;
+}
+.ceo-photo{
+  width:min(100%,300px) !important;
+  min-height:390px !important;
+}
+.ceo-photo img{
+  min-height:390px !important;
+}
+@media(max-width:850px){
+  .ceo-photo{
+    width:min(100%,285px) !important;
+    min-height:360px !important;
+  }
+  .ceo-photo img{
+    min-height:360px !important;
+  }
+}
+@media(max-width:560px){
+  .ceo-intro-copy h1{
+    font-size:48px !important;
+  }
+  .ceo-photo{
+    width:100% !important;
+    min-height:320px !important;
+  }
+  .ceo-photo img{
+    min-height:320px !important;
+  }
+}

@@ -1,30 +1,25 @@
-SPACE URBAN WORKS Website v7
+SPACE URBAN WORKS Website v8
 
-[수정사항]
-1. HEADER
-- 상단 전체 배경을 순수 흰색(#FFFFFF)으로 변경
+[주요 수정]
+- URBAN RESEARCH 하단 CEO PROFILE 검정 블록 삭제
+- PEOPLE > 대표 카드의 '대표 프로필 보기' 버튼을 크게 강조
+- 대표 프로필 페이지 전면 재구성
+  · 진은애
+  · (주)스페이스어반웍스 대표
+  · 유알공간도시연구소 소장
+  · 단국대학교 도시계획부동산학부 강사
+  · 중앙대학교 객원연구원
+  · Education
+  · Working Experience
+  · Social / Academic Activities
+  · Awards
+  · Publications
+  · Events & Media
+- 별도 Academic Activities 섹션은 제거
+- 학술발표는 Publications에 포함
+- 대표 사진 파일이 없으므로 현재는 프로필 사진 placeholder 제공
+  → 추후 assets/ceo.jpg를 올리면 쉽게 교체 가능
 
-2. PROJECTS
-- EXPERIENCE BUILT OVER TIME 문구/설명 삭제
-- SPACE PROJECTS 상단 대표사진 묶음 삭제
-- 각 SPACE 실적 카테고리를 펼쳤을 때 관련 대표 프로젝트 썸네일을 작게 표시
-- 기존 실적목록 + 큰 +/- 버튼 구조 유지
-- URBAN PROJECTS는 기존 연구용역 목록 구조 유지
-
-3. URBAN RESEARCH
-- 연구용역 아카이브 중복 삭제
-- 논문/학술활동/수상/전문위원/Event 영역도 본문에서 제거
-- 대신 '대표 프로필' 링크 배치
-
-4. PEOPLE
-- 대표 카드 안에 '대표 프로필 보기' 버튼 추가
-- PEOPLE 본문에는 개인 이름을 노출하지 않음
-
-5. CEO PROFILE
-- profile.html 별도 페이지 신규 생성
-- 대표 진은애 Ph.D. 프로필
-- 논문·기고·학술발표 / 학술활동 / 수상 / 전문위원 활동 / EVENT·대외활동·언론보도 상세 수록
-
-[GitHub 업로드]
-압축 해제 후 suw-site 안의 모든 파일(index.html, profile.html, styles.css, script.js, assets, README.txt)을 저장소 최상위에 업로드하여 덮어쓰기.
-CNAME 파일은 기존 것을 유지.
+[GitHub]
+suw-site 안의 index.html, profile.html, styles.css, script.js, assets, README.txt를 저장소 최상위에 업로드.
+CNAME은 유지.

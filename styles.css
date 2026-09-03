@@ -992,3 +992,130 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
   .profile-section{padding:55px 6vw 95px}
   .profile-list li{grid-template-columns:1fr;gap:4px}
 }
+
+/* ===== v8 PEOPLE CTA EMPHASIS ===== */
+.org-profile-link{
+  margin-top:30px !important;
+  min-height:50px !important;
+  padding:0 24px !important;
+  border:1.5px solid #111 !important;
+  border-radius:28px !important;
+  background:#fff !important;
+  color:#111 !important;
+  font-size:11px !important;
+  font-weight:700 !important;
+  letter-spacing:.08em !important;
+  box-shadow:0 0 0 0 rgba(0,0,0,0);
+  transition:all .22s ease !important;
+}
+.org-profile-link:hover{
+  background:#111 !important;
+  color:#fff !important;
+  transform:translateY(-1px);
+}
+
+/* ===== v8 CEO PROFILE ===== */
+.profile-v8{background:#f4f3ef}
+.ceo-intro{
+  max-width:1500px;
+  margin:0 auto;
+  padding:110px 4.5vw 80px;
+}
+.ceo-intro-grid{
+  display:grid;
+  grid-template-columns:minmax(260px,.72fr) 1.28fr;
+  gap:85px;
+  align-items:end;
+}
+.ceo-photo{
+  margin:0;
+  min-height:520px;
+  background:#e7e5de;
+  overflow:hidden;
+}
+.ceo-photo img{
+  width:100%;
+  height:100%;
+  min-height:520px;
+  object-fit:cover;
+  filter:grayscale(100%);
+}
+.ceo-photo.placeholder{
+  min-height:520px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:30px;
+  color:#777;
+  border:1px solid #d2d0c8;
+}
+.ceo-photo.placeholder span{
+  font-size:11px;
+  letter-spacing:.16em;
+}
+.ceo-photo.placeholder small{
+  margin-top:6px;
+  font-size:10px;
+}
+.ceo-intro-copy h1{
+  margin:22px 0 45px;
+  font-size:clamp(72px,10vw,155px);
+  line-height:.84;
+  letter-spacing:-.075em;
+}
+.ceo-current{
+  display:grid;
+  gap:10px;
+  padding-top:28px;
+  border-top:1px solid #9e9c94;
+}
+.ceo-current strong{
+  font-size:17px;
+  font-weight:500;
+}
+.ceo-basic-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  margin-top:85px;
+  padding-top:35px;
+  border-top:1px solid #9e9c94;
+}
+.ceo-basic-grid section>span{
+  display:block;
+  font-size:10px;
+  letter-spacing:.16em;
+  font-weight:600;
+  margin-bottom:22px;
+}
+.ceo-basic-grid ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.ceo-basic-grid li{
+  padding:10px 0;
+  border-top:1px solid rgba(17,17,15,.08);
+  font-size:15px;
+  line-height:1.65;
+}
+.publication-list li div>span{
+  display:block;
+  margin:0 0 4px;
+  font-size:11px;
+  color:#77766f;
+}
+.publication-list li div>strong{
+  display:block;
+}
+@media(max-width:850px){
+  .ceo-intro-grid{grid-template-columns:1fr;gap:45px}
+  .ceo-photo,.ceo-photo img,.ceo-photo.placeholder{min-height:420px}
+  .ceo-basic-grid{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .ceo-intro{padding:75px 6vw 55px}
+  .ceo-photo,.ceo-photo img,.ceo-photo.placeholder{min-height:340px}
+  .ceo-intro-copy h1{font-size:64px}
+  .ceo-current strong{font-size:15px}
+}

@@ -1,18 +1,20 @@
-SPACE URBAN WORKS Website v16
+SPACE URBAN WORKS Website v17
 
-[반영사항]
-- ORIGIN & BUSINESS 중간의 INTEGRATED AS / SPACE URBAN WORKS 블록 삭제
-- ABOUT 배경을 광폭 해외 도시 스카이라인 전경으로 교체
-- PROJECTS 소개문 중 '전신 조직의 수행실적은 Legacy Track Record로 구분하여 소개합니다.' 문구 삭제
-- CORPORATE / OFFICE 사진의 캡션 영역 제거 + 크기/비율 통일
-- MEDICAL / COMMERCIAL / EXHIBITION 사진의 캡션 영역 제거 + 크기/비율 통일
-- CONSTRUCTION MATERIALS / EXTERIOR 사진의 캡션 영역 제거 + 크기/비율 통일
-- 상단 로고 확대
-- 상단 메뉴 글씨 확대
-- ABOUT / BUSINESS 클릭 시 고정 헤더 아래에서 정확히 시작되도록 스크롤 위치 조정
-- PROJECTS 메뉴를 SPACE PROJECTS / URBAN PROJECTS 두 메뉴로 분리
-- SPACE PROJECTS / URBAN PROJECTS 각각 해당 실적 영역으로 바로 이동
+[이번 수정]
+1. 메뉴 클릭 화면 정렬
+- URBAN PROJECTS
+- URBAN RESEARCH
+- PEOPLE
+- CONTACT
+위 메뉴 클릭 시 고정 헤더 바로 아래에서 섹션이 안정적으로 시작되도록 scroll-margin 조정
+- 각 섹션의 상하 패딩과 최소 높이를 조정해 한 화면에 더 잘 맞게 구성
+- PEOPLE / CONTACT는 화면 중앙에서 균형 있게 보이도록 배치
+- 모바일에서는 과도한 고정 높이를 해제해 자연스럽게 스크롤되도록 처리
+
+2. BUSINESS
+- 'SPACE와 URBAN의 경험이 새로운 WORKS가 됩니다.' 제목 크기를 약 15~20% 축소
+- 제목과 카드/사업영역의 화면 비율을 더 안정적으로 조정
 
 [GitHub 업로드]
 압축 해제 후 suw-site 안의 전체 파일을 GitHub 저장소 최상위에 덮어쓰기 업로드.
-CNAME은 기존 파일 그대로 유지.
+CNAME 파일은 기존 것을 유지.

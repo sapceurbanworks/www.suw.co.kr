@@ -1785,3 +1785,107 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
     height:180px !important;
   }
 }
+
+
+/* ===== v17 MENU / VIEWPORT FIT ===== */
+#urban-projects,
+#research,
+#people,
+#contact{
+  scroll-margin-top:92px !important;
+}
+
+/* URBAN PROJECTS: start neatly below header and use a compact top rhythm */
+#urban-projects{
+  padding-top:72px !important;
+  min-height:calc(100vh - 92px);
+}
+
+/* URBAN RESEARCH: fit more cleanly into one viewport */
+#research.research{
+  min-height:calc(100vh - 92px);
+  padding-top:76px !important;
+  padding-bottom:76px !important;
+}
+#research .section-label{
+  margin-bottom:46px !important;
+}
+#research .research-hero h2{
+  margin-top:14px !important;
+  margin-bottom:34px !important;
+}
+#research .research-grid{
+  margin-top:52px !important;
+}
+
+/* PEOPLE: center the whole organization section more cleanly within a viewport */
+#people.people{
+  min-height:calc(100vh - 92px);
+  padding-top:74px !important;
+  padding-bottom:74px !important;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+#people .section-label{
+  margin-bottom:46px !important;
+}
+#people .people-head{
+  margin-bottom:44px !important;
+}
+
+/* CONTACT: make the section land as a full-screen final panel */
+#contact.contact{
+  min-height:calc(100vh - 92px);
+  padding-top:74px !important;
+  padding-bottom:62px !important;
+  display:flex;
+  align-items:center;
+}
+#contact .contact-inner{
+  width:100%;
+}
+#contact h2{
+  margin-top:18px !important;
+  margin-bottom:38px !important;
+}
+#contact .contact-grid{
+  margin-top:64px !important;
+}
+
+/* BUSINESS headline smaller and better balanced */
+#business .ob-hero h2{
+  font-size:clamp(32px,3.8vw,56px) !important;
+  line-height:1.12 !important;
+  max-width:700px !important;
+}
+
+/* Responsive anchor offsets */
+@media(max-width:1000px){
+  #urban-projects,
+  #research,
+  #people,
+  #contact{
+    scroll-margin-top:76px !important;
+  }
+
+  #urban-projects,
+  #research.research,
+  #people.people,
+  #contact.contact{
+    min-height:auto;
+  }
+}
+
+@media(max-width:650px){
+  #research.research,
+  #people.people,
+  #contact.contact{
+    padding-top:66px !important;
+    padding-bottom:66px !important;
+  }
+
+  #business .ob-hero h2{
+    font-size:34px !important;
+  }
+}

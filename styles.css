@@ -1687,3 +1687,101 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
   .research-grid article{min-height:180px !important}
   .research-grid article h3{margin-top:42px !important}
 }
+
+
+/* ===== v16 ABOUT / BUSINESS ANCHORS ===== */
+#about,
+#business,
+#space-projects,
+#urban-projects,
+#research,
+#people,
+#contact{
+  scroll-margin-top:92px;
+}
+
+#about.intro{
+  min-height:calc(100vh - 92px);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background:
+    linear-gradient(rgba(244,243,239,.74), rgba(244,243,239,.84)),
+    url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=3200&q=88")
+    center 42% / cover no-repeat !important;
+}
+
+#business.origin-business{
+  min-height:calc(100vh - 92px);
+  padding-top:74px !important;
+  padding-bottom:74px !important;
+}
+
+/* ===== v16 HEADER ===== */
+.site-header{
+  height:92px !important;
+  padding-left:4.2vw !important;
+  padding-right:4.2vw !important;
+}
+.brand{
+  width:320px !important;
+  height:66px !important;
+}
+.brand img{
+  transform:scale(1.12) !important;
+  transform-origin:left center !important;
+}
+.nav{
+  gap:28px !important;
+  font-size:12px !important;
+  letter-spacing:.11em !important;
+}
+
+/* ===== v16 BUSINESS COMPACT ===== */
+#business .ob-hero{gap:52px !important}
+#business .ob-roots{margin-top:44px !important}
+#business .ob-root{min-height:250px !important;padding-top:26px !important;padding-bottom:26px !important}
+#business .ob-root h3{margin-top:54px !important;font-size:44px !important}
+#business .ob-root em{margin-top:18px !important}
+#business .ob-services{margin-top:24px !important}
+#business .ob-service-title{padding-top:23px !important;padding-bottom:23px !important}
+#business .ob-service-title h3{margin-top:36px !important;font-size:28px !important}
+#business .ob-service-list article{padding-top:18px !important;padding-bottom:18px !important}
+
+/* ===== v16 CLEAN PROJECT IMAGES ===== */
+.space-visible-gallery.v16-clean-gallery{
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  grid-auto-rows:230px !important;
+}
+.space-visible-gallery.v16-clean-gallery figure,
+.space-visible-gallery.v16-clean-gallery figure:first-child{
+  grid-column:auto !important;
+  grid-row:auto !important;
+  height:230px !important;
+}
+.space-visible-gallery.v16-clean-gallery img{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  object-position:center center !important;
+  filter:none !important;
+}
+
+@media(max-width:1000px){
+  .site-header{height:76px !important}
+  .brand{width:250px !important;height:54px !important}
+  .nav{top:76px !important}
+  #about,#business,#space-projects,#urban-projects,#research,#people,#contact{
+    scroll-margin-top:76px;
+  }
+}
+@media(max-width:850px){
+  .space-visible-gallery.v16-clean-gallery{
+    grid-template-columns:1fr 1fr !important;
+    grid-auto-rows:180px !important;
+  }
+  .space-visible-gallery.v16-clean-gallery figure,
+  .space-visible-gallery.v16-clean-gallery figure:first-child{
+    height:180px !important;
+  }
+}

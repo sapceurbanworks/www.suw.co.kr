@@ -1889,3 +1889,96 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
     font-size:34px !important;
   }
 }
+
+
+/* ===== v18 viewport centering & text balance ===== */
+
+/* ABOUT: left headline slightly smaller, right body slightly larger */
+#about .intro-grid{
+  align-items:center !important;
+}
+#about h2{
+  font-size:clamp(38px,4.3vw,64px) !important;
+  line-height:1.08 !important;
+}
+#about .body-copy{
+  font-size:16px !important;
+  line-height:1.95 !important;
+}
+#about .body-copy .lead{
+  font-size:20px !important;
+  line-height:1.75 !important;
+}
+
+/* URBAN PROJECTS: vertically center the whole content block */
+#urban-projects{
+  min-height:calc(100vh - 92px) !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  padding-top:34px !important;
+  padding-bottom:34px !important;
+}
+#urban-projects .track-title{
+  margin-top:0 !important;
+}
+#urban-projects .urban-intro{
+  padding-top:32px !important;
+  padding-bottom:36px !important;
+}
+#urban-projects .track-archive{
+  margin-top:0 !important;
+}
+
+/* URBAN RESEARCH: center the entire research composition vertically */
+#research.research{
+  min-height:calc(100vh - 92px) !important;
+  display:flex !important;
+  align-items:center !important;
+  padding-top:38px !important;
+  padding-bottom:38px !important;
+}
+#research .research-inner{
+  width:100% !important;
+}
+#research .section-label{
+  margin-bottom:28px !important;
+}
+#research .research-hero h2{
+  margin-top:10px !important;
+  margin-bottom:24px !important;
+}
+#research .research-grid{
+  margin-top:38px !important;
+}
+#research .profile-cta,
+#research .research-archive,
+#research .research-archive-v6{
+  margin-top:28px !important;
+}
+
+/* Prevent anchor offsets from making centered sections feel too high */
+#urban-projects,
+#research{
+  scroll-margin-top:92px !important;
+}
+
+@media(max-width:1000px){
+  #urban-projects,
+  #research.research{
+    min-height:auto !important;
+    display:block !important;
+    padding-top:68px !important;
+    padding-bottom:68px !important;
+  }
+
+  #about h2{
+    font-size:clamp(36px,7vw,54px) !important;
+  }
+  #about .body-copy{
+    font-size:15px !important;
+  }
+  #about .body-copy .lead{
+    font-size:18px !important;
+  }
+}

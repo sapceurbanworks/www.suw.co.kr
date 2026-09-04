@@ -18,3 +18,14 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+// v15 SPACE PROJECTS: photos remain visible; button toggles only project list.
+document.querySelectorAll('[data-project-category]').forEach(category => {
+  const button = category.querySelector('.space-project-toggle');
+  if (!button) return;
+  button.addEventListener('click', () => {
+    const open = category.classList.toggle('open');
+    button.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+});

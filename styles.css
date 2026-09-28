@@ -1982,3 +1982,47 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
     font-size:18px !important;
   }
 }
+
+
+/* ===== v19 URBAN RESEARCH cleanup ===== */
+#research .profile-cta,
+#research .research-archive,
+#research .research-archive-v6{
+  display:none !important;
+}
+
+#research.research{
+  min-height:calc(100vh - 92px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding-top:34px !important;
+  padding-bottom:34px !important;
+}
+
+#research .research-inner{
+  width:100% !important;
+}
+
+#research .section-label{
+  margin-bottom:22px !important;
+}
+
+#research .research-hero h2{
+  margin-top:8px !important;
+  margin-bottom:22px !important;
+}
+
+#research .research-grid{
+  margin-top:34px !important;
+  margin-bottom:0 !important;
+}
+
+@media(max-width:1000px){
+  #research.research{
+    min-height:auto !important;
+    display:block !important;
+    padding-top:64px !important;
+    padding-bottom:64px !important;
+  }
+}

@@ -2026,3 +2026,29 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
     padding-bottom:64px !important;
   }
 }
+
+
+/* ===== v20 URBAN RESEARCH exact centering ===== */
+#research.research{
+  min-height:calc(100vh - 92px) !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding-top:24px !important;
+  padding-bottom:24px !important;
+}
+#research .research-inner{
+  width:100% !important;
+  max-width:1500px !important;
+  margin:0 auto !important;
+}
+#research .section-label{
+  margin-bottom:20px !important;
+}
+#research .research-hero h2{
+  margin:6px 0 20px !important;
+}
+#research .research-grid{
+  margin-top:30px !important;
+  margin-bottom:0 !important;
+}

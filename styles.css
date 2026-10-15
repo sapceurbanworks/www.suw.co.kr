@@ -2052,3 +2052,31 @@ footer{height:78px;background:#111;color:#777;border-top:1px solid #2e2e2c;displ
   margin-top:30px !important;
   margin-bottom:0 !important;
 }
+
+
+/* ===== v21 HERO sequential entrance ===== */
+.hero-word{
+  opacity:0;
+  transform:translateY(34px);
+  will-change:opacity, transform;
+}
+body.hero-ready .hero-word-space{
+  animation:heroWordIn .72s cubic-bezier(.22,.8,.22,1) .15s forwards;
+}
+body.hero-ready .hero-word-urban{
+  animation:heroWordIn .78s cubic-bezier(.22,.8,.22,1) .62s forwards;
+}
+body.hero-ready .hero-word-works{
+  animation:heroWordIn .82s cubic-bezier(.22,.8,.22,1) 1.08s forwards;
+}
+@keyframes heroWordIn{
+  from{opacity:0;transform:translateY(34px);}
+  to{opacity:1;transform:translateY(0);}
+}
+@media (prefers-reduced-motion: reduce){
+  .hero-word{
+    opacity:1 !important;
+    transform:none !important;
+    animation:none !important;
+  }
+}

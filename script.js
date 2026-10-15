@@ -29,3 +29,9 @@ document.querySelectorAll('[data-project-category]').forEach(category => {
     button.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
 });
+
+
+// v21 HERO animation: run once on initial page load.
+window.addEventListener('DOMContentLoaded', () => {
+  requestAnimationFrame(() => document.body.classList.add('hero-ready'));
+});
